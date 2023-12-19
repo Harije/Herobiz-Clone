@@ -437,16 +437,16 @@
 }
 
 .ourteamtop{
-    margin-left: 180px;
-    top: 30px;
-    margin-right: 180px;
+    
+    top: 10px;
+    margin: 0px 180px 30px 180px;
     position: relative;
     text-align: center;
-    padding: 10px;
+   
     color: darkgray;
     font-family: sans-serif;
     line-height: 1.4;
-    padding-bottom: 40px;
+    
     letter-spacing: 0.6;
 }
 .ourteamhead{
@@ -461,7 +461,12 @@
 
 
 .teamcontainer{
-    height: 630px;
+    position: relative;
+    height: 600px;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 84px;
 }
 
 
@@ -469,15 +474,13 @@
 .team_slide{
     position: relative;
     top: 40px;
-    left: 81px;
     height: 530px;
     width: 410px;
-    margin-left: 30px;
+    margin: 20px;
     overflow: hidden;
 }
 
 .imageeover{
-    margin-bottom: 180px;
     position: relative;
     text-align: center;
     height: 440px;
@@ -486,26 +489,44 @@
     overflow: hidden;
 }
 
-.imagee{
+/* .imagee{
     
     height: 440px;
     width: 420px;
    
+} */
+
+.imagee{
+    
+    height: 440px;
+    width: 411px;
+    overflow: hidden;
+    background-position: center;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
+.team_slide:hover .imagee {  
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2); /* IE 9 */ 
+    transform: scale(1.2);
+  } 
 
 
 .teamoverslide{
    
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 20px;
+    padding: 20px 30px 0px;
     position: absolute;
     top: 390px;
     left: 25px;
     font-family: sans-serif;
     font-weight: lighter;
     text-align: center;
-    height: 95px;
+    height: 99px;
     border-radius: 8px;
     width: 300px;
     background-color: white;
@@ -525,33 +546,33 @@
     background-color: #32b1c700;
     border: 5px solid white;
     padding: 20px;
-    border-radius: 70px;  */
-  
+    border-radius: 70px; 
+    display: none;
+   */
    color: #ffffff00;
    
    
 }
 
-.teamoverslide:hover .teamicon{
+/* .teamoverslide:hover .teamicon{
     color: #d4e6e7;
-}
+} */
 
 .team_slide:hover .teamicon{
     position: relative;
-    bottom: 45px;
+    top: -45px;
     width: 15px;
     height: 15px;
     padding: 15px;
-    margin-bottom: -22px;
     margin-left: 4px;
-    margin-bottom: -32px;
     font-size: medium;
     border-radius: 70px;
     background-color: #0ea2bd;
     color: white;
+    transition: .4s;
     border: 2px solid #0ea2bd;
 }
-.team_slide
+
 .memname{
     position: relative;
     bottom: 10px;
@@ -561,7 +582,7 @@
 }
 .team_slide:hover .memname{
    
-    margin-top: -16px;
+    margin-top: -30px;
     font-family: system-ui;
     font-weight: 400;
 
