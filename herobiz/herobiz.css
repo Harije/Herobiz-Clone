@@ -983,7 +983,20 @@ color: darkgray;
         color: white;
         font-size: medium;
         font-family: sans-serif;
-        left: 75px;
+        left: 155px;
+    }
+
+    .iconmenu {
+        display:inline-block;
+    }
+    
+    .menuicon {
+        position: relative;
+        top: 10px;
+        left: 160px;
+        font-size: larger;
+        color: #0ea2bd;
+        padding: 10px;
     }
 
     
@@ -1013,7 +1026,7 @@ color: darkgray;
     }
 
     .headingtag {
-        font-size: x-large;
+        font-size: xx-large;
         font-weight: lighter;
         letter-spacing: 1px;
         color: #817171;
@@ -1081,7 +1094,7 @@ color: darkgray;
     .boxes {
         position: relative;
         background: linear-gradient(135deg, white, transparent);
-        width: 230px;
+        width: 310px;
         height: 130px;
         color: #575757;
         padding: 20px 20px;
@@ -1153,9 +1166,9 @@ color: darkgray;
     .service_slide {
         position: relative;
         top: 0px;
-        left: 5px;
+        left: 20px;
         height: 363px;
-        width: 300px;
+        width: 350px;
         margin: 0px 10px;
         overflow: hidden;
     }
@@ -1165,13 +1178,13 @@ color: darkgray;
         text-align: center;
         height: 260px;
         border-radius: 10px;
-        width: 290px;
+        width: 350px;
         overflow: hidden;
     }
 
     .image {
         height: 260px;
-        width: 300px;
+        width: 350px;
         overflow: hidden;
         background-position: center;
         -webkit-transition: all .5s ease;
@@ -1193,15 +1206,15 @@ color: darkgray;
         padding-right: 20px;
         padding-left: 20px;
         position: absolute;
-        top: 190px;
-        left: 15px;
+        top: 181px;
+        left: 25px;
         font-size: 10px;
         font-family: sans-serif;
         font-weight: lighter;
         text-align: center;
-        height: 140px;
+        height: 160px;
         border-radius: 8px;
-        width: 220px;
+        width: 260px;
         background-color: rgba(255, 255, 255, 0.9);
         box-shadow: 0 0 16px 17px rgba(110, 131, 188, 0.1);
     }
@@ -1250,11 +1263,13 @@ color: darkgray;
     .serviceoverslide h1{
         position: relative;
         bottom: 20px;
+        font-size: 18px;
     }
 
     .servicecont {
         position: relative;
         bottom: 30px;
+        font-size: 11px;
         font-family: sans-serif;
         line-height: 1.5;
         color: #908080;
@@ -1314,7 +1329,8 @@ color: darkgray;
         position: relative;
         top: 40px;
         height: 410px;
-        width: 280px;
+        width: 330px;
+        left: 20px;
         margin: 20px;
         overflow: hidden;
     }
@@ -1324,13 +1340,13 @@ color: darkgray;
         text-align: center;
         height: 360px;
         border-radius: 10px;
-        width: 280px;
+        width: 330px;
         overflow: hidden;
     }   
 
     .imagee {
         height: 360px;
-        width: 280px;
+        width: 330px;
         overflow: hidden;
         background-position: center;
         -webkit-transition: all .5s ease;
@@ -1352,13 +1368,9 @@ color: darkgray;
         padding: 10px 10px 0px;
         position: absolute;
         top: 310px;
-        left: 20px;
-        font-family: sans-serif;
-        font-weight: lighter;
-        text-align: center;
+        left: 25px;
         height: 79px;
-        border-radius: 8px;
-        width: 220px;
+        width: 260px;
         background-color: white;
         box-shadow: 0 0 16px 17px rgba(110, 131, 188, 0.1);
       }
@@ -1437,19 +1449,14 @@ color: darkgray;
     }
 
     .contactcontainerleft {
-        /* border-radius: 1px;
-        position: relative;
-        background-color: white; */
-        height: 374px;
-        width: 210px;
-        left: 15px;
-        top: 30px;
-        /* padding: 40px 40px;
         
-        font-size: larger;
-        box-shadow: 0 0 16px 17px rgba(110, 131, 188, 0.1); */
+        height: 374px;
+        width: 270px;
+        left: 30px;
+        top: 30px;
+        margin-bottom: 20px;
+        
     }
-
     .contactusdiv {
         height: 1090px;
         position: relative;
