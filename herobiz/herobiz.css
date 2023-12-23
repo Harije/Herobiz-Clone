@@ -1087,6 +1087,7 @@ color: darkgray;
         position: relative;
         height: 730px;
         width: 100%;
+        top: 10px;
   
     }
     .services {
@@ -1104,6 +1105,7 @@ color: darkgray;
         padding: 20px 20px;
         margin: 0px;
         margin-bottom: 10px;
+        left: 30px;
         font-family: sans-serif;
         border: none;
         transition: 0.5s;
@@ -1111,7 +1113,7 @@ color: darkgray;
 
     .boicon {
         font-size: x-large;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
         color: #3fbbc0;
     }
 
@@ -1125,7 +1127,6 @@ color: darkgray;
         padding-bottom: 10px;
         line-height: 1.5;
     }
-
     /* ================================================================================================= */
 
     #services-2 {
