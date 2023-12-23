@@ -2022,7 +2022,7 @@ color: darkgray;
 
 /* media query */
 
-@media screen and (min-width:320px) and (max-width: 480px) {
+/* @media screen and (min-width:320px) and (max-width: 480px) {
 
 
 
@@ -2087,12 +2087,12 @@ color: darkgray;
         font-size: larger;
         color: #0ea2bd;
         padding: 10px;
-    }
+    } */
 
     
     /*=====================================================================================  */
 
-    #content {
+/*     #content {
         position: relative;
         height: 460px;
     }
@@ -2166,10 +2166,10 @@ color: darkgray;
     .icon {
         font-size: medium;
         color: #0ea2bd;
-    }
+    } */
 
     /* ====================================================================================== */
-    #Service {
+/*     #Service {
         position: relative;
         height: 730px;
         width: 100%;
@@ -2211,11 +2211,11 @@ color: darkgray;
         padding-top: 9px;
         padding-bottom: 10px;
         line-height: 1.5;
-    }
+    } */
 
     /* ================================================================================================= */
 
-    #services-2 {
+/*     #services-2 {
         position: relative;
         height: 2700px;
         width: 100%;
@@ -2288,7 +2288,7 @@ color: darkgray;
         -webkit-transform: scale(1.2);
         -moz-transform: scale(1.2);
         -o-transform: scale(1.2);
-        -ms-transform: scale(1.2); /* IE 9 */ 
+        -ms-transform: scale(1.2); 
         transform: scale(1.2);
       } 
     
@@ -2316,10 +2316,7 @@ color: darkgray;
     }
 
     .service_slide:hover .abouticon {
-        /* position: relative;
-        bottom: 30px;
-        width: 15px;
-        height: 15px; */
+        
         padding: 20px;
         text-align: center;
         font-size: x-large;
@@ -2327,16 +2324,7 @@ color: darkgray;
         color: #0ea2bd;
         border: 2px solid #0ea2bd;
 
-        /* position: relative;
-        bottom: 30px;
-        width: 25px;
-        height: 25px;
-        font-size: x-large;
-        color: white;
-        background-color: #0ea2bd;
-        border: 2px solid white;
-        padding: 20px;
-        border-radius: 70px; */
+        
     }
 
     .abouticon {
@@ -2364,19 +2352,13 @@ color: darkgray;
         font-family: sans-serif;
         line-height: 1.5;
         color: #908080;
-    }
-    /* .service_slide:hover .servicecont {
-        position: relative;
-        padding-top: 5px;
-        font-family: sans-serif;
-        line-height: 1.5;
-        color: #908080;
     } */
+   
 
 
     /* =========================================================================================================== */
 
-    #ourteam {
+/*     #ourteam {
         position: relative;
         height: 1590px;
         width: 100%;
@@ -2447,13 +2429,7 @@ color: darkgray;
         transition: all .5s ease;
     }
 
-    /* .service_slide:hover .imagee {  
-        -webkit-transform: scale(1.2);
-        -moz-transform: scale(1.2);
-        -o-transform: scale(1.2);
-        -ms-transform: scale(1.2); 
-        transform: scale(1.2);
-      }  */
+    
     
       .teamoverslide {
         padding: 10px 10px 10px;
@@ -2494,12 +2470,12 @@ color: darkgray;
         line-height: 1.5;
         font-size: larger;
         color: #908080;
-    }
+    } */
 
 
     /* ====================================================================================================== */
 
-    #contactus {
+/*     #contactus {
         position: relative;
         height: 1560px;
         width: 100%;
@@ -2536,7 +2512,6 @@ color: darkgray;
         position: relative;
         top: 10px;
         margin: 10px 110px;
-        /* height: 530px; */
     }
 
     .contactcontainerleft {
@@ -2557,8 +2532,6 @@ color: darkgray;
         position: relative;
         top: 60px;
         left: 0px;
-        /* height: 510px;
-        width: 460px; */
         display: inline;
     }
 
@@ -2583,7 +2556,7 @@ color: darkgray;
         padding: 17px;
         padding-right: 150px;
     }
-}
+} */
 
 
 /*==================================================================================  */
