@@ -2007,10 +2007,10 @@ color: darkgray;
 } */
 
 /*=======================================================================================================================  */
-
+/*moto g4  */
 /* media query */
 
-/* @media screen and (min-width:320px) and (max-width: 480px) {
+@media screen and (min-width:320px) and (max-width: 480px) {
 
 
 
@@ -2075,12 +2075,12 @@ color: darkgray;
         font-size: larger;
         color: #0ea2bd;
         padding: 10px;
-    } */
+    }
 
     
     /*=====================================================================================  */
 
-/*     #content {
+    #content {
         position: relative;
         height: 460px;
     }
@@ -2154,10 +2154,10 @@ color: darkgray;
     .icon {
         font-size: medium;
         color: #0ea2bd;
-    } */
+    }
 
     /* ====================================================================================== */
-/*     #Service {
+    #Service {
         position: relative;
         height: 730px;
         width: 100%;
@@ -2199,11 +2199,11 @@ color: darkgray;
         padding-top: 9px;
         padding-bottom: 10px;
         line-height: 1.5;
-    } */
+    }
 
     /* ================================================================================================= */
 
-/*     #services-2 {
+    #services-2 {
         position: relative;
         height: 2700px;
         width: 100%;
@@ -2272,13 +2272,7 @@ color: darkgray;
         -o-transition: all .5s ease;
         transition: all .5s ease;
     }
-    .service_slide:hover .image {  
-        -webkit-transform: scale(1.2);
-        -moz-transform: scale(1.2);
-        -o-transform: scale(1.2);
-        -ms-transform: scale(1.2); 
-        transform: scale(1.2);
-      } 
+    
     
     
     .serviceoverslide {
@@ -2340,13 +2334,13 @@ color: darkgray;
         font-family: sans-serif;
         line-height: 1.5;
         color: #908080;
-    } */
+    }
    
 
 
     /* =========================================================================================================== */
 
-/*     #ourteam {
+    #ourteam {
         position: relative;
         height: 1590px;
         width: 100%;
@@ -2458,12 +2452,12 @@ color: darkgray;
         line-height: 1.5;
         font-size: larger;
         color: #908080;
-    } */
+    }
 
 
     /* ====================================================================================================== */
 
-/*     #contactus {
+    #contactus {
         position: relative;
         height: 1560px;
         width: 100%;
@@ -2544,7 +2538,7 @@ color: darkgray;
         padding: 17px;
         padding-right: 150px;
     }
-} */
+}
 
 
 /*==================================================================================  */
