@@ -987,7 +987,7 @@ color: darkgray;
         color: white;
         font-size: medium;
         font-family: sans-serif;
-        left: 155px;
+        left: 165px;
     }
 
     .iconmenu {
@@ -997,7 +997,7 @@ color: darkgray;
     .menuicon {
         position: relative;
         top: 10px;
-        left: 160px;
+        left: 170px;
         font-size: larger;
         color: #0ea2bd;
         padding: 10px;
@@ -1087,7 +1087,6 @@ color: darkgray;
         position: relative;
         height: 730px;
         width: 100%;
-        top: 10px;
   
     }
     .services {
@@ -1099,13 +1098,12 @@ color: darkgray;
     .boxes {
         position: relative;
         background: linear-gradient(135deg, white, transparent);
-        width: 310px;
+        width: 320px;
         height: 130px;
         color: #575757;
         padding: 20px 20px;
         margin: 0px;
         margin-bottom: 10px;
-        left: 30px;
         font-family: sans-serif;
         border: none;
         transition: 0.5s;
@@ -1113,7 +1111,7 @@ color: darkgray;
 
     .boicon {
         font-size: x-large;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         color: #3fbbc0;
     }
 
