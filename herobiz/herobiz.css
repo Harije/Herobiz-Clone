@@ -141,7 +141,7 @@
     position: relative;
     height: 400px;
     margin-bottom: 80px;
-    animation: bounceAnimation 1s infinite;
+    animation: bounceAnimation 3s infinite;
 }
 
 
@@ -723,6 +723,7 @@
     font-size: medium;
     padding: 17px;
     padding-right: 197px;
+    outline-color: #0ea2bd;
 }
 
 .ine{
@@ -730,6 +731,7 @@
     font-size: medium;
     padding: 17px;
     padding-right: 626px;
+    outline-color: #0ea2bd;
 }
 
 
@@ -745,6 +747,7 @@
     padding: 17px;
     font-size: medium;
     font-family: sans-serif;
+    outline-color: #0ea2bd;
 }
 
 .appbut{
@@ -1354,7 +1357,13 @@ color: darkgray;
         transition: all .5s ease;
     }
 
-   
+    /* .service_slide:hover .imagee {  
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        -ms-transform: scale(1.2); 
+        transform: scale(1.2);
+      }  */
     
       .teamoverslide {
         padding: 10px 10px 10px;
