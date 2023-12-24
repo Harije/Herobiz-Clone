@@ -115,6 +115,8 @@
 }
 
 
+
+
 /* =========================================================================================================================== */
 
 /* section content */
@@ -328,7 +330,6 @@
 .service_slide{
     position: relative;
     top: 40px;
-    left: 81px;
     height: 480px;
     width: 410px;
     margin-left: 30px;
@@ -728,7 +729,7 @@
     border: 1px solid #b3dcdc;
     font-size: medium;
     padding: 17px;
-    padding-right: 618px;
+    padding-right: 626px;
 }
 
 
@@ -886,7 +887,7 @@ color: darkgray;
 
 .foot{
     position: relative;
-    height: 110px;
+    height: 130px;
     background-color: #3a4753;
 }
 
@@ -911,7 +912,7 @@ color: darkgray;
 }
 
 .lastfoot{
-    display: flex;
+    
     display: flex;
     margin-left: 25px;
     padding: 40px 70px;
@@ -926,1088 +927,12 @@ color: darkgray;
 /* final */
 /* ============================================================================================================================================= */
 
-
-
                                         /* media query starts */
 
 /* ================================================================================================================================================ */
-/*423  */
-/* media query */
 
-/* @media screen and (min-width:320px) and (max-width: 480px) {
 
 
-
-    #header {
-        background-color: white;
-        position: relative;
-        height: 70px;
-        width: 100%;
-        top: 0px;
-        left: 0;
-        position: sticky;
-        z-index: 10;
-        box-shadow: 0 0 29px 29px rgba(110, 131, 188, 0.12);
-    }
-
-    .headerdiv {
-        position: relative;
-        display: flex;
-        height: 60px;
-        top: 0;
-    }
-
-    .logo {
-        color: #090f75;
-        position: relative;
-        top: 22px;
-        left: 13px;
-        bottom: 10;
-        font-size: x-large;
-        text-decoration: none;
-        font-family: sans-serif;
-        font-weight: lighter;
-    }
-
-    .navbar {
-        position: relative;
-        display: none;
-    }
-
-    .getstartbutton {
-        position: relative;
-        background-color: #0ea2bd;
-        padding: 6px 0px 0px 0px;
-        border-radius: 6px;
-        top: 21px;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        font-size: medium;
-        font-family: sans-serif;
-        left: 175px;
-    }
-
-    .iconmenu {
-        display:inline-block;
-    }
-    
-    .menuicon {
-        position: relative;
-        top: 16px;
-        left: 180px;
-        font-size: larger;
-        color: #0ea2bd;
-        padding: 10px;
-    } */
-
-    
-    /*=====================================================================================  */
-
-/*     #content {
-        position: relative;
-        height: 460px;
-    }
-
-    .background {
-        position: relative;
-        background-color: white;
-        top: 40px;
-        height: 420px;
-        margin-left: 10px;
-        margin-right: 10px;
-        text-align: center;
-        font-family: sans-serif;
-    }
-    
-
-    .img {
-        position: relative;
-        height: 160px;
-        animation: bounceAnimation 3s infinite;
-    }
-
-    .headingtag {
-        font-size: xx-large;
-        font-weight: lighter;
-        letter-spacing: 1px;
-        color: #817171;
-        padding-bottom: 20px;
-    }
-
-    .contentline {
-        font-size: medium;
-        font-weight: 200;
-        letter-spacing: 0.5px;
-        color: darkgray;
-    }
-
-
-    .contentbuttons {
-        position: relative;
-        text-align: center;
-        padding-top: 14px;
-        left: 0px;
-        width: 100%;
-        padding-left: 0px;
-    }
-
-
-    .getstartbutton1 {
-        position: relative;
-        background-color: #0ea2bd;
-        padding: 6px 17px 6px 17px;
-        border-radius: 6px;
-        top: 10px;
-        text-decoration: none;
-        color: white;
-        font-size: medium;
-        font-family: sans-serif;
-    }
-
-    .getstartbutton2 {
-        position: relative;
-    padding: 6px 7px;
-    top: 10px;
-    text-decoration: none;
-    color: #887b7b;
-    font-size: medium;
-    font-family: sans-serif;
-    }
-
-    .icon {
-        font-size: medium;
-        color: #0ea2bd;
-    }
- */
-    /* ====================================================================================== */
-/*     #Service {
-        position: relative;
-        height: 730px;
-        width: 100%;
-  
-    }
-    .services {
-        height: 730px;
-        width: 100%;
-        display: block;
-    }
-
-    .boxes {
-        position: relative;
-        background: linear-gradient(135deg, white, transparent);
-        width: 288px;
-        left: 45px;
-        height: 130px;
-        color: #575757;
-        padding: 20px 20px;
-        margin: 0px;
-        margin-bottom: 10px;
-        font-family: sans-serif;
-        border: none;
-        transition: 0.5s;
-    }
-
-    .boicon {
-        font-size: x-large;
-        padding-bottom: 10px;
-        color: #3fbbc0;
-    }
-
-    .boxes h1{
-        font-size: 17px;
-    }
-    .secont{
-        color: #746767;
-        font-size: 14px;
-        padding-top: 9px;
-        padding-bottom: 10px;
-        line-height: 1.5;
-    }
- */
-    /* ================================================================================================= */
-
-/*     #services-2 {
-        position: relative;
-        height: 2700px;
-        width: 100%;
-    }
-    
-    .service-2 {
-        margin-left: 35px;
-        margin-right: 35px;
-        margin-bottom: 50px;
-        position: relative;
-        text-align: center;
-        padding: 7px;
-        color: darkgray;
-        font-family: sans-serif;
-        line-height: 1.4;
-        letter-spacing: 0.6;
-    }
-
-    .service-2 p{
-        font-size: 12px;
-    }
-
-    .servicehead {
-        padding-top: 0px;
-    padding-bottom: 10px;
-    font-size: xx-large;
-    font-weight: lighter;
-    font-family: sans-serif;
-    color: #6a5a5a;
-    }
-
-
-    .service-2_list {
-        position: relative;
-        top: 30px;
-        height: 2480px;
-    }
-
-    .service_slide {
-        position: relative;
-        top: 0px;
-        left: 20px;
-        height: 420px;
-        width: 365px;
-        margin: 0px 10px;
-        overflow: hidden;
-    }
-
-    .imageover {
-        position: relative;
-        text-align: center;
-        height: 260px;
-        border-radius: 10px;
-        width: 365px;
-        overflow: hidden;
-    }
-
-    .image {
-        height: 260px;
-        width: 365px;
-        overflow: hidden;
-        background-position: center;
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
-    }
-    
-    
-    
-    .serviceoverslide {
-        padding-right: 20px;
-        padding-left: 20px;
-        position: absolute;
-        top: 181px;
-        left: 25px;
-        font-size: 10px;
-        font-family: sans-serif;
-        font-weight: lighter;
-        text-align: center;
-        height: 180px;
-        border-radius: 8px;
-        width: 275px;
-        background-color: rgba(255, 255, 255, 0.9);
-        box-shadow: 0 0 16px 17px rgba(110, 131, 188, 0.1);
-    }
-
-    .service_slide:hover{
-        color:#0ea2bd;
-    
-    }
-
-    .service_slide:hover .abouticon {
-       
-        padding: 20px;
-        text-align: center;
-        font-size: x-large;
-        background-color: white;
-        color: #0ea2bd;
-        border: 2px solid #0ea2bd;
-
-        
-    }
-
-    .abouticon {
-        position: relative;
-        bottom: 30px;
-        width: 25px;
-        height: 25px;
-        font-size: x-large;
-        color: white;
-        background-color: #0ea2bd;
-        border: 5px solid white;
-        padding: 20px;
-        border-radius: 70px;
-    }
-    .serviceoverslide h1{
-        position: relative;
-        bottom: 20px;
-        font-size: 18px;
-    }
-
-    .servicecont {
-        position: relative;
-        bottom: 20px;
-        font-size: 14px;
-        font-family: sans-serif;
-        line-height: 1.5;
-        color: #908080;
-    } */
-   
-
-
-    /* =========================================================================================================== */
-
-/*     #ourteam {
-        position: relative;
-        height: 1590px;
-        width: 100%;
-    }
-    .ourteamtop {
-        margin-left: 35px;
-        margin-right: 35px;
-        margin-bottom: 20px;
-        position: relative;
-        text-align: center;
-        padding: 7px;
-        color: darkgray;
-        font-family: sans-serif;
-        line-height: 1.4;
-        letter-spacing: 0.6;
-    }
-
-    .ourteamtop p{
-        font-size: 12px;
-    }
-
-    .ourteamhead {
-        padding-top: 0px;
-    padding-bottom: 10px;
-    font-size: xx-large;
-    font-weight: lighter;
-    font-family: sans-serif;
-    color: #6a5a5a;
-    }
-
-    .teamcontainer {
-        position: relative;
-        height: 1410px;
-        left: 0px;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0px 0px;
-    }
-
-    .team_slide {
-        position: relative;
-        top: 40px;
-        height: 430px;
-        width: 345px;
-        left: 20px;
-        margin: 20px;
-        overflow: hidden;
-    }
-
-    .imageeover {
-        position: relative;
-        text-align: center;
-        height: 360px;
-        border-radius: 10px;
-        width: 345px;
-        overflow: hidden;
-    }   
-
-    .imagee {
-        height: 360px;
-        width: 345px;
-        overflow: hidden;
-        background-position: center;
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
-    }
-
-   
-    
-      .teamoverslide {
-        padding: 10px 10px 10px;
-    position: absolute;
-    top: 310px;
-    left: 25px;
-    height: 79px;
-    width: 275px;
-        background-color: white;
-        box-shadow: 0 0 16px 17px rgba(110, 131, 188, 0.1);
-      }
-
-      .team_slide:hover .teamicon {
-        position: relative;
-        top: -29px;
-        width: 14px;
-        height: 14px;
-        padding: 9px;
-        margin-left: 4px;
-        font-size: medium;
-        border-radius: 70px;
-        background-color: #0ea2bd;
-        color: white;
-        transition: .4s;
-        border: 2px solid #0ea2bd;
-    }
-    
-    .team_slide:hover .memname {
-        margin-top: -18px;
-        font-family: system-ui;
-        font-weight: 400;
-    }
-
-    .team_slide:hover .teamcont {
-        position: relative;
-        bottom: 7px;
-        font-family: sans-serif;
-        line-height: 1.5;
-        font-size: larger;
-        color: #908080;
-    } */
-
-
-    /* ====================================================================================================== */
-
-/*     #contactus {
-        position: relative;
-        height: 1560px;
-        width: 100%;
-    }
-
-    .contactustop {
-        margin-left: 35px;
-        margin-right: 35px;
-        margin-bottom: 50px;
-        position: relative;
-        text-align: center;
-        padding: 7px;
-        color: darkgray;
-        font-family: sans-serif;
-        line-height: 1.4;
-        letter-spacing: 0.6;
-    }
-
-    .contactustop p{
-        font-size: 12px;
-    }
-
-    .contactushead {
-        padding-top: 0px;
-    padding-bottom: 10px;
-    font-size: xx-large;
-    font-weight: lighter;
-    font-family: sans-serif;
-    color: #6a5a5a;
-    }
-
-    .contactcontainer {
-        display: inline;
-        position: relative;
-        top: 10px;
-        margin: 10px 110px;
-       
-    }
-
-    .contactcontainerleft {
-        
-        height: 374px;
-        width: 283px;
-        left: 30px;
-        top: 30px;
-        margin-bottom: 20px;
-        
-    }
-
-    .contactusdiv {
-        height: 1090px;
-        position: relative;
-    }
-
-    .contactinput {
-        position: relative;
-        top: 60px;
-        left: 0px;
-        display: inline;
-    }
-
-    
-
-    .inpvalue {
-        position: relative;
-        left: 30px;
-        margin-bottom: 21px;
-    }
-
-    .in {
-        border: 1px solid #b3dcdc;
-        font-size: medium;
-        padding: 17px;
-        padding-right: 150px;
-    }
-
-    .ine {
-        border: 1px solid #b3dcdc;
-        font-size: medium;
-        padding: 17px;
-        padding-right: 150px;
-    }
-} */
-
-/* ===================================================================================================================================================== */
-/*411  */
-
-/* media query */
-
-/*  @media screen and (min-width:320px) and (max-width: 480px) {
-
-
-
-    #header {
-        background-color: white;
-        position: relative;
-        height: 60px;
-        width: 100%;
-        top: 0px;
-        left: 0;
-        position: sticky;
-        z-index: 10;
-        box-shadow: 0 0 29px 29px rgba(110, 131, 188, 0.12);
-    }
-
-    .headerdiv {
-        position: relative;
-        display: flex;
-        height: 60px;
-        top: 0;
-    }
-
-    .logo {
-        color: #090f75;
-        position: relative;
-        top: 16px;
-        left: 10;
-        bottom: 10;
-        font-size: x-large;
-        text-decoration: none;
-        font-family: sans-serif;
-        font-weight: lighter;
-    }
-
-    .navbar {
-        position: relative;
-        display: none;
-    }
-
-    .getstartbutton {
-        position: relative;
-        background-color: #0ea2bd;
-        padding: 6px 0px 0px 0px;
-        border-radius: 6px;
-        top: 15px;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        font-size: medium;
-        font-family: sans-serif;
-        left: 165px;
-    }
-
-    .iconmenu {
-        display:inline-block;
-    }
-    
-    .menuicon {
-        position: relative;
-        top: 10px;
-        left: 170px;
-        font-size: larger;
-        color: #0ea2bd;
-        padding: 10px;
-    } */
-
-    
-    /*=====================================================================================  */
-
-/*     #content {
-        position: relative;
-        height: 460px;
-    }
-
-    .background {
-        position: relative;
-        background-color: white;
-        top: 40px;
-        height: 420px;
-        margin-left: 10px;
-        margin-right: 10px;
-        text-align: center;
-        font-family: sans-serif;
-    }
-    
-
-    .img {
-        position: relative;
-        height: 160px;
-        animation: bounceAnimation 3s infinite;
-    }
-
-    .headingtag {
-        font-size: xx-large;
-        font-weight: lighter;
-        letter-spacing: 1px;
-        color: #817171;
-        padding-bottom: 20px;
-    }
-
-    .contentline {
-        font-size: medium;
-        font-weight: 200;
-        letter-spacing: 0.5px;
-        color: darkgray;
-    }
-
-
-    .contentbuttons {
-        position: relative;
-        text-align: center;
-        padding-top: 14px;
-        left: 0px;
-        width: 100%;
-        padding-left: 0px;
-    }
-
-
-    .getstartbutton1 {
-        position: relative;
-        background-color: #0ea2bd;
-        padding: 6px 7px 6px 7px;
-        border-radius: 6px;
-        top: 10px;
-        text-decoration: none;
-        color: white;
-        font-size: medium;
-        font-family: sans-serif;
-    }
-
-    .getstartbutton2 {
-        position: relative;
-    padding: 6px 7px;
-    top: 10px;
-    text-decoration: none;
-    color: #887b7b;
-    font-size: medium;
-    font-family: sans-serif;
-    }
-
-    .icon {
-        font-size: medium;
-        color: #0ea2bd;
-    } */
-
-    /* ====================================================================================== */
-/*     #Service {
-        position: relative;
-        height: 730px;
-        width: 100%;
-  
-    }
-    .services {
-        height: 730px;
-        width: 100%;
-        display: block;
-    }
-
-    .boxes {
-        position: relative;
-        background: linear-gradient(135deg, white, transparent);
-        width: 320px;
-        height: 130px;
-        color: #575757;
-        padding: 20px 20px;
-        margin: 0px;
-        margin-bottom: 10px;
-        font-family: sans-serif;
-        border: none;
-        transition: 0.5s;
-    }
-
-    .boicon {
-        font-size: x-large;
-        padding-bottom: 10px;
-        color: #3fbbc0;
-    }
-
-    .boxes h1{
-        font-size: 17px;
-    }
-    .secont{
-        color: #746767;
-        font-size: 14px;
-        padding-top: 9px;
-        padding-bottom: 10px;
-        line-height: 1.5;
-    } */
-    /* ================================================================================================= */
-
-/*      #services-2 {
-        position: relative;
-        height: 2380px;
-        width: 100%;
-    }
-    
-    .service-2 {
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-        position: relative;
-        text-align: center;
-        padding: 7px;
-        color: darkgray;
-        font-family: sans-serif;
-        line-height: 1.4;
-        letter-spacing: 0.6;
-    }
-
-    .service-2 p{
-        font-size: 12px;
-    }
-
-    .servicehead {
-        padding-top: 0px;
-    padding-bottom: 10px;
-    font-size: xx-large;
-    font-weight: lighter;
-    font-family: sans-serif;
-    color: #6a5a5a;
-    }
-
-
-    .service-2_list {
-        position: relative;
-        top: 30px;
-        height: 2180px;
-    }
-
-    .service_slide {
-        position: relative;
-        top: 0px;
-        left: 20px;
-        height: 363px;
-        width: 350px;
-        margin: 0px 10px;
-        overflow: hidden;
-    }
-
-    .imageover {
-        position: relative;
-        text-align: center;
-        height: 260px;
-        border-radius: 10px;
-        width: 350px;
-        overflow: hidden;
-    }
-
-    .image {
-        height: 260px;
-        width: 350px;
-        overflow: hidden;
-        background-position: center;
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
-    }
-    .service_slide:hover .image {  
-        -webkit-transform: scale(1.2);
-        -moz-transform: scale(1.2);
-        -o-transform: scale(1.2);
-        -ms-transform: scale(1.2);  
-        transform: scale(1.2);
-      } 
-    
-    
-    .serviceoverslide {
-        padding-right: 20px;
-        padding-left: 20px;
-        position: absolute;
-        top: 181px;
-        left: 25px;
-        font-size: 10px;
-        font-family: sans-serif;
-        font-weight: lighter;
-        text-align: center;
-        height: 160px;
-        border-radius: 8px;
-        width: 260px;
-        background-color: rgba(255, 255, 255, 0.9);
-        box-shadow: 0 0 16px 17px rgba(110, 131, 188, 0.1);
-    }
-
-    .service_slide:hover{
-        color:#0ea2bd;
-    
-    } 
-
-    .service_slide:hover .abouticon {
-       
-        padding: 20px;
-        text-align: center;
-        font-size: x-large;
-        background-color: white;
-        color: #0ea2bd;
-        border: 2px solid #0ea2bd;
-
-        
-    }
-
-    .abouticon {
-        position: relative;
-        bottom: 30px;
-        width: 25px;
-        height: 25px;
-        font-size: x-large;
-        color: white;
-        background-color: #0ea2bd;
-        border: 5px solid white;
-        padding: 20px;
-        border-radius: 70px;
-    }
-    .serviceoverslide h1{
-        position: relative;
-        bottom: 20px;
-        font-size: 18px;
-    }
-
-    .servicecont {
-        position: relative;
-        bottom: 30px;
-        font-size: 11px;
-        font-family: sans-serif;
-        line-height: 1.5;
-        color: #908080;
-    } */
-     
-
-
-    /* =========================================================================================================== */
-
-/*     #ourteam {
-        position: relative;
-        height: 1560px;
-        width: 100%;
-    }
-    .ourteamtop {
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-        position: relative;
-        text-align: center;
-        padding: 7px;
-        color: darkgray;
-        font-family: sans-serif;
-        line-height: 1.4;
-        letter-spacing: 0.6;
-    }
-
-    .ourteamtop p{
-        font-size: 12px;
-    }
-
-    .ourteamhead {
-        padding-top: 0px;
-    padding-bottom: 10px;
-    font-size: xx-large;
-    font-weight: lighter;
-    font-family: sans-serif;
-    color: #6a5a5a;
-    }
-
-    .teamcontainer {
-        position: relative;
-        height: 1350px;
-        left: 0px;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0px 0px;
-    }
-
-    .team_slide {
-        position: relative;
-        top: 40px;
-        height: 410px;
-        width: 330px;
-        left: 20px;
-        margin: 20px;
-        overflow: hidden;
-    }
-
-    .imageeover {
-        position: relative;
-        text-align: center;
-        height: 360px;
-        border-radius: 10px;
-        width: 330px;
-        overflow: hidden;
-    }   
-
-    .imagee {
-        height: 360px;
-        width: 330px;
-        overflow: hidden;
-        background-position: center;
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
-    } */
-
-    /* .service_slide:hover .imagee {  
-        -webkit-transform: scale(1.2);
-        -moz-transform: scale(1.2);
-        -o-transform: scale(1.2);
-        -ms-transform: scale(1.2); 
-        transform: scale(1.2);
-      }  */
-    
-/*       .teamoverslide {
-        padding: 10px 10px 0px;
-        position: absolute;
-        top: 310px;
-        left: 25px;
-        height: 79px;
-        width: 260px;
-        background-color: white;
-        box-shadow: 0 0 16px 17px rgba(110, 131, 188, 0.1);
-      }
-
-      .team_slide:hover .teamicon {
-        position: relative;
-        top: -29px;
-        width: 14px;
-        height: 14px;
-        padding: 9px;
-        margin-left: 4px;
-        font-size: medium;
-        border-radius: 70px;
-        background-color: #0ea2bd;
-        color: white;
-        transition: .4s;
-        border: 2px solid #0ea2bd;
-    }
-    
-    .team_slide:hover .memname {
-        margin-top: -18px;
-        font-family: system-ui;
-        font-weight: 400;
-    }
-
-    .team_slide:hover .teamcont {
-        position: relative;
-        bottom: 7px;
-        font-family: sans-serif;
-        line-height: 1.5;
-        font-size: larger;
-        color: #908080;
-    }
- */
-
-    /* ====================================================================================================== */
-
-/*     #contactus {
-        position: relative;
-        height: 1560px;
-        width: 100%;
-    }
-
-    .contactustop {
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-        position: relative;
-        text-align: center;
-        padding: 7px;
-        color: darkgray;
-        font-family: sans-serif;
-        line-height: 1.4;
-        letter-spacing: 0.6;
-    }
-
-    .contactustop p{
-        font-size: 12px;
-    }
-
-    .contactushead {
-        padding-top: 0px;
-    padding-bottom: 10px;
-    font-size: xx-large;
-    font-weight: lighter;
-    font-family: sans-serif;
-    color: #6a5a5a;
-    }
-
-    .contactcontainer {
-        display: inline;
-        position: relative;
-        top: 10px;
-        margin: 10px 110px;
-        height: 530px;
-    }
-
-    .contactcontainerleft {
-        
-        height: 374px;
-        width: 270px;
-        left: 30px;
-        top: 30px;
-        margin-bottom: 20px;
-        
-    }
-    .contactusdiv {
-        height: 1090px;
-        position: relative;
-    }
-
-    .contactinput {
-        position: relative;
-        top: 60px;
-        left: 0px;
-        display: inline;
-    }
-
-    element.style {
-        display: inline;
-    }
-
-    .inpvalue {
-        position: relative;
-        left: 19px;
-        margin-bottom: 21px;
-    }
-
-    .in {
-        border: 1px solid #b3dcdc;
-        font-size: medium;
-        padding: 17px;
-    }
-} */
-
-/*=======================================================================================================================  */
-/*moto g4  */
 /* media query */
 
 @media screen and (min-width:320px) and (max-width: 480px) {
@@ -2024,6 +949,7 @@ color: darkgray;
         position: sticky;
         z-index: 10;
         box-shadow: 0 0 29px 29px rgba(110, 131, 188, 0.12);
+        justify-items: center;
     }
 
     .headerdiv {
@@ -2051,16 +977,11 @@ color: darkgray;
     }
 
     .getstartbutton {
-        position: relative;
-        background-color: #0ea2bd;
-        padding: 7px 0px 0px 0px;
-        border-radius: 6px;
+        padding: 6px 0px 0px 0px;
+        border-radius: 20px;
         top: 21px;
         text-align: center;
-        text-decoration: none;
-        color: white;
         font-size: medium;
-        font-family: sans-serif;
         left: 115px;
     }
 
@@ -2077,12 +998,17 @@ color: darkgray;
         padding: 10px;
     }
 
+    .menuicon:hover{
+        color: #090f75;
+    }
+
     
     /*=====================================================================================  */
 
     #content {
         position: relative;
         height: 460px;
+        justify-items: center;
     }
 
     .background {
@@ -2130,25 +1056,17 @@ color: darkgray;
 
 
     .getstartbutton1 {
-        position: relative;
-        background-color: #0ea2bd;
         padding: 6px 17px 6px 17px;
-        border-radius: 6px;
+        border-radius: 22px;
         top: 10px;
-        text-decoration: none;
-        color: white;
         font-size: medium;
-        font-family: sans-serif;
     }
 
     .getstartbutton2 {
-        position: relative;
-    padding: 6px 7px;
-    top: 10px;
-    text-decoration: none;
-    color: #887b7b;
-    font-size: medium;
-    font-family: sans-serif;
+        padding: 6px 7px;
+        top: 10px;
+        font-size: medium;
+        font-family: sans-serif;
     }
 
     .icon {
@@ -2166,14 +1084,15 @@ color: darkgray;
     .services {
         height: 730px;
         width: 100%;
-        display: block;
+        display: grid;
+        justify-items: center;
     }
 
     .boxes {
         position: relative;
         background: linear-gradient(135deg, white, transparent);
         width: 288px;
-        left: 15px;
+        left: 1px;
         height: 130px;
         color: #575757;
         padding: 20px 20px;
@@ -2186,7 +1105,7 @@ color: darkgray;
 
     .boicon {
         font-size: x-large;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
         color: #3fbbc0;
     }
 
@@ -2240,13 +1159,14 @@ color: darkgray;
         position: relative;
         top: 30px;
         height: 2480px;
+        display: grid;
     }
 
     .service_slide {
         position: relative;
         top: 0px;
-        left: 7px;
-        height: 420px;
+        left: 2px;
+        height: 415px;
         width: 325px;
         margin: 0px 10px;
         overflow: hidden;
@@ -2272,7 +1192,13 @@ color: darkgray;
         -o-transition: all .5s ease;
         transition: all .5s ease;
     }
-    
+    .service_slide:hover .image {  
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        -ms-transform: scale(1.2); /* IE 9 */ 
+        transform: scale(1.2);
+      } 
     
     
     .serviceoverslide {
@@ -2298,7 +1224,10 @@ color: darkgray;
     }
 
     .service_slide:hover .abouticon {
-        
+        /* position: relative;
+        bottom: 30px;
+        width: 15px;
+        height: 15px; */
         padding: 20px;
         text-align: center;
         font-size: x-large;
@@ -2306,7 +1235,16 @@ color: darkgray;
         color: #0ea2bd;
         border: 2px solid #0ea2bd;
 
-        
+        /* position: relative;
+        bottom: 30px;
+        width: 25px;
+        height: 25px;
+        font-size: x-large;
+        color: white;
+        background-color: #0ea2bd;
+        border: 2px solid white;
+        padding: 20px;
+        border-radius: 70px; */
     }
 
     .abouticon {
@@ -2335,7 +1273,13 @@ color: darkgray;
         line-height: 1.5;
         color: #908080;
     }
-   
+    /* .service_slide:hover .servicecont {
+        position: relative;
+        padding-top: 5px;
+        font-family: sans-serif;
+        line-height: 1.5;
+        color: #908080;
+    } */
 
 
     /* =========================================================================================================== */
@@ -2375,8 +1319,7 @@ color: darkgray;
         position: relative;
         height: 1410px;
         left: 0px;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
         margin: 0px 0px;
     }
 
@@ -2385,7 +1328,7 @@ color: darkgray;
         top: 40px;
         height: 430px;
         width: 310px;
-        left: 5px;
+        left: 1px;
         margin: 20px;
         overflow: hidden;
     }
@@ -2411,7 +1354,13 @@ color: darkgray;
         transition: all .5s ease;
     }
 
-    
+    /* .service_slide:hover .imagee {  
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        -ms-transform: scale(1.2); 
+        transform: scale(1.2);
+      }  */
     
       .teamoverslide {
         padding: 10px 10px 10px;
@@ -2490,38 +1439,45 @@ color: darkgray;
     }
 
     .contactcontainer {
-        display: inline;
+        display: grid;
         position: relative;
         top: 10px;
-        margin: 10px 110px;
+        margin: 0px;
+        height: 1080px;
+        width: 100%;
+        justify-items: center;
     }
 
     .contactcontainerleft {
         
         height: 374px;
         width: 220px;
-        left: 30px;
+        left: 0px;
         top: 30px;
         margin-bottom: 20px;
     }
 
     .contactusdiv {
-        height: 1090px;
+        height: 1140px;
+        width: 100%;
         position: relative;
     }
 
     .contactinput {
         position: relative;
-        top: 60px;
+        top: 10px;
         left: 0px;
-        display: inline;
+        display: contents;
+        justify-items: center;
     }
 
     
 
     .inpvalue {
         position: relative;
-        left: 30px;
+        left: 8px;
+        top: 30px;
+        width: 300px;
         margin-bottom: 21px;
     }
 
@@ -2529,19 +1485,100 @@ color: darkgray;
         border: 1px solid #b3dcdc;
         font-size: medium;
         padding: 17px;
-        padding-right: 150px;
+        padding-right: 90px;
     }
 
     .ine {
         border: 1px solid #b3dcdc;
         font-size: medium;
         padding: 17px;
-        padding-right: 150px;
+        padding-right: 90px;
+    }
+
+    .area {
+        position: relative;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .tearea {
+        height: 240px;
+        width: 301px;
+        
+    }
+
+    .sendmess {
+        left: 0px;
+    }
+
+    /* ============================================================================================= */
+
+
+    #footer {
+        height: 1210px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+       
+    }
+    .footerdetails {
+        position: relative;
+        width: 270px;
+        display: inline-block;
+        padding: 40px 40px;
+    }
+
+    .footer-links {
+        margin-top: 30px;
+        margin-left: 0px;
+        
+    }
+
+    .footer-newsletter {
+        position: relative;
+        width: 290px;
+        margin-top: 20px;
+        margin-left: 0px;
+        line-height: 2.5;
+    }
+
+    .footer-newsletter p{
+        
+        line-height: 1.5;
+        margin-bottom: 30px;
+        position: relative;
+        width: 280px;
+     
+    }
+
+    .Subscribe {
+        width: 170px;
+    }
+
+    .foot {
+       
+        height: 210px;
+        width: 100%;
+    }
+
+    .lastfoot {
+        position: relative;
+        width: 300px;
+        padding: 40px 5px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .teamlasticon{
+        left: 0px;
+        top: 50px;
+    }
+
+    .copyright {
+        
+        font-size: 13px;
     }
 }
-
-
-/*==================================================================================  */
 
 
 
