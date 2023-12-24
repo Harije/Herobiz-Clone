@@ -978,11 +978,11 @@ color: darkgray;
 
     .getstartbutton {
         padding: 6px 0px 0px 0px;
-        border-radius: 20px;
+        border-radius: 3px;
         top: 21px;
         text-align: center;
         font-size: medium;
-        left: 115px;
+        left: 125px;
     }
 
     .iconmenu {
@@ -992,7 +992,7 @@ color: darkgray;
     .menuicon {
         position: relative;
         top: 16px;
-        left: 120px;
+        left: 125px;
         font-size: larger;
         color: #0ea2bd;
         padding: 10px;
@@ -1057,7 +1057,7 @@ color: darkgray;
 
     .getstartbutton1 {
         padding: 6px 17px 6px 17px;
-        border-radius: 22px;
+        border-radius: 3px;
         top: 10px;
         font-size: medium;
     }
@@ -1165,7 +1165,7 @@ color: darkgray;
     .service_slide {
         position: relative;
         top: 0px;
-        left: 2px;
+        left: 1px;
         height: 415px;
         width: 325px;
         margin: 0px 10px;
@@ -1328,7 +1328,7 @@ color: darkgray;
         top: 40px;
         height: 430px;
         width: 310px;
-        left: 1px;
+        left: 0px;
         margin: 20px;
         overflow: hidden;
     }
@@ -1354,13 +1354,7 @@ color: darkgray;
         transition: all .5s ease;
     }
 
-    /* .service_slide:hover .imagee {  
-        -webkit-transform: scale(1.2);
-        -moz-transform: scale(1.2);
-        -o-transform: scale(1.2);
-        -ms-transform: scale(1.2); 
-        transform: scale(1.2);
-      }  */
+   
     
       .teamoverslide {
         padding: 10px 10px 10px;
