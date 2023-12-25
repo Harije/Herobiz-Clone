@@ -738,10 +738,18 @@
 .area{
     position: relative;
     margin-top: 20px;
-    margin-left: 19px;
-
+    margin-left: 19px;  
+    height: 296px;
 }
 
+.senddiv{
+    position: relative;
+    height: 60px;
+    width: 188px;
+    top: 10px;
+    left: 360px;
+
+}
 .tearea{
     border: 1px solid #b3dcdc;
     padding: 17px;
@@ -778,7 +786,7 @@
     font-size: medium;
     font-weight: lighter;
     font-family: sans-serif;
-    left: 350px;
+    /* left: 350px; */
 }
 .sendmess:hover{
     color: white;
@@ -1502,12 +1510,22 @@ color: darkgray;
         position: relative;
         margin-top: 20px;
         margin-left: 0px;
+        height: 236px;
     }
+   
 
     .tearea {
         height: 240px;
         width: 301px;
         
+    }
+    .senddiv{
+        
+            position: relative;
+            height: 60px;
+            width: 188px;
+            left: 0px;
+      
     }
 
     .sendmess {
